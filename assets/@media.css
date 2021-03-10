@@ -3,6 +3,86 @@
 
 /* OTIMIZAÇÃO PARA CELULAR */
 
+@media (max-width: 900px){
+.logo img {
+    width: 150px;
+    margin-top: 15px;
+}
+nav ul li a{
+    font-size: 15px;
+}
+#coluna1{
+    width: 80%;
+    margin-left: 50px;
+    text-align: justify;
+}
+
+#coluna1 h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+#coluna1 h2{
+    font-size: 30px;
+    text-align: center;
+}
+
+#coluna1 h3{
+    font-size: 15px;
+    text-align: center;
+    max-width: 80%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#coluna1 h4{
+    font-size: 20px;
+    text-align: center;
+}
+
+#coluna2 img{
+    display: block;
+    width: 300px;
+    margin-left: 30px;
+}
+
+
+#coluna3{
+    display: block;
+    width:50%;
+}
+
+.btn-sobre-nos{
+    display: block;
+    margin: auto;
+}
+
+#sec3-background img{
+    width: 50%;
+}
+
+#sec3-content{
+    max-width: 50%;
+    margin: auto;
+}
+
+#sec3-content h3{
+    font-size: 15px;
+    max-width: 70%;
+    margin: auto;
+    margin-bottom: 30px;
+}
+
+.btn-orcamento{
+    margin-bottom: 20px;
+}
+
+
+    
+}
+
 @media (max-width: 768px) {
 .logo img {
     width: 150px;
@@ -17,7 +97,7 @@ ul{
     position: fixed;
     width: 100%;
     height: 100vh;
-    background-color: #607466;
+    background-color: #54685a;
     top: 80px;
     left: -100%;
     text-align: center;
@@ -50,7 +130,6 @@ nav ul li a{
 }
 
 #sec1-content{
-    width: 300px;
     margin-left: -80px;
 }
 
@@ -98,10 +177,16 @@ nav ul li a{
     text-align: center;
 }
 
+#coluna2 img{
+    margin-left: 80px;
+}
 
 #coluna3{
-    width:100%;
+    display: block;
+    margin-right: 100px;
+    width:63%;
     margin-top: 30px;
+    
 }
 
 #sec3{
