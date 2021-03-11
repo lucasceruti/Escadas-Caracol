@@ -52,11 +52,6 @@
     font-size: 20px;
 }
 
-#sec3-content{
-    max-width: 50%;
-    margin: auto;
-}
-
 #sec3-content h3{
     font-size: 15px;
     max-width: 70%;
@@ -72,6 +67,7 @@
 @media (max-width: 900px) {
 #coluna1 {
     width: 100%;
+    margin: auto;
 }
 
 #coluna1 h1,h2,h4 {
@@ -89,6 +85,7 @@
 .btn-sobre-nos{
     display: block;
     margin: auto;
+    margin-bottom: 30px;
 }
     
 #coluna2 img{
@@ -155,7 +152,7 @@ nav ul li a{
 }
 
 #sec1-content{
-    margin-left: -80px;
+    margin-left: -40px;
 }
 
 #sec1-content h1{
@@ -212,6 +209,11 @@ nav ul li a{
 
 .btn-orcamento{
     margin-bottom: 20px;
+}
+
+#rodape-content{
+    margin-top: 50%;
+    margin-bottom: -50%;
 }
 
 #rodape-content h2{
