@@ -8,15 +8,19 @@
     width: 150px;
     margin-top: 15px;
 }
+
 #coluna2 img{
     height: 450px;
 }
+
 #coluna3{
     height: 450px;
 }
+
 #sec3-background img{
     margin-bottom: 30px;
 }
+
 #sec3-content h3{
     font-size: 17px;
     max-width: 90%;
@@ -109,20 +113,24 @@
 }
 
 @media (max-width: 801px) {
-
-#coluna2 img{
+    /* .logo img {
+        width: 250px;
+        margin-top: 15px;
+    } */
+/* #coluna2 img{
     width: 40%;
     
-}
+} */
 
-#coluna3{
+/* #coluna3{
     width: 60%;
-}
+} */
 }
 
 
 
 @media (max-width: 768px) {
+
 .checkbtn{
     display: block;
 }
@@ -176,10 +184,14 @@ nav ul li a{
     font-size: 18px;
 }
 
-#coluna2 img{
-    /* width: 500px; */
-    margin-bottom: 30px;
+main{
     display: block;
+}
+
+#coluna2 img{
+    /* width: 400px; */
+    margin-bottom: 30px;
+    /* display: block; */
     margin: auto;
 }
 
