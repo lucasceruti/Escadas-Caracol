@@ -112,25 +112,8 @@
 }
 }
 
-@media (max-width: 801px) {
-    /* .logo img {
-        width: 250px;
-        margin-top: 15px;
-    } */
-/* #coluna2 img{
-    width: 40%;
-    
-} */
-
-/* #coluna3{
-    width: 60%;
-} */
-}
-
-
 
 @media (max-width: 768px) {
-
 .checkbtn{
     display: block;
 }
@@ -184,15 +167,9 @@ nav ul li a{
     font-size: 18px;
 }
 
-main{
-    display: block;
-}
-
 #coluna2 img{
-    /* width: 400px; */
+    width: 100%;
     margin-bottom: 30px;
-    /* display: block; */
-    margin: auto;
 }
 
 #coluna3{
