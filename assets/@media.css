@@ -3,64 +3,49 @@
 
 /* OTIMIZAÇÃO PARA CELULAR */
 
-@media (max-width: 900px){
+@media (max-width: 1400px){
 .logo img {
     width: 150px;
     margin-top: 15px;
 }
-nav ul li a{
-    font-size: 15px;
+#coluna2 img{
+    height: 450px;
 }
-#coluna1{
-    width: 80%;
-    margin-left: 50px;
-    text-align: justify;
+#coluna3{
+    height: 450px;
 }
-
-#coluna1 h1{
-    font-size: 60px;
-    text-align: center;
+#sec3-background img{
+    margin-bottom: 30px;
 }
-
-#coluna1 h2{
-    font-size: 30px;
-    text-align: center;
-}
-
-#coluna1 h3{
-    font-size: 15px;
-    text-align: center;
-    max-width: 80%;
-    text-align: justify;
+#sec3-content h3{
+    font-size: 17px;
+    max-width: 90%;
     margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
+}
 }
 
-#coluna1 h4{
-    font-size: 20px;
-    text-align: center;
+
+@media (max-width: 1024px){
+
+#coluna1 {
+    width: 30%;
 }
 
 #coluna2 img{
-    display: block;
-    width: 300px;
-    margin-left: 30px;
+   width: 30%;
+   margin: 0;
 }
-
-
 #coluna3{
-    display: block;
-    width:50%;
+    width: 30%;
 }
 
-.btn-sobre-nos{
-    display: block;
-    margin: auto;
+#coluna3 h2{
+    font-size: 40px;    
 }
 
-#sec3-background img{
-    width: 50%;
+#coluna3 h3{
+    line-height: 35px;
+    font-size: 20px;
 }
 
 #sec3-content{
@@ -75,20 +60,69 @@ nav ul li a{
     margin-bottom: 30px;
 }
 
-.btn-orcamento{
+.btn-sobre-nos{
+    margin-top: -10px;
+}
+}
+
+@media (max-width: 900px) {
+#coluna1 {
+    width: 100%;
+}
+
+#coluna1 h1,h2,h4 {
+    text-align: center;
+}
+
+#coluna1 h3{
+    max-width: 80%;
+    text-align: justify;
+    margin: auto;
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
+.btn-sobre-nos{
+    display: block;
+    margin: auto;
+}
+    
+#coluna2 img{
+    width: 40%;
+    margin: 0;
+    border: none;
+}
 
+#coluna3{
+    width: 60%;
+    border: none;
+}
+    
+#coluna3 h2{
+    font-size: 50px;    
+}
+    
+#coluna3 h3{
+    line-height: 35px;
+    font-size: 28px;
+}
+}
+
+@media (max-width: 801px) {
+
+#coluna2 img{
+    width: 40%;
     
 }
 
-@media (max-width: 768px) {
-.logo img {
-    width: 150px;
-    margin-top: 15px;
+#coluna3{
+    width: 60%;
+}
 }
 
+
+
+@media (max-width: 768px) {
 .checkbtn{
     display: block;
 }
@@ -134,59 +168,33 @@ nav ul li a{
 }
 
 #sec1-content h1{
-    font-size: 80px; 
+    margin: auto;
+    font-size: 70px; 
 }
 
 #sec1-content h2{
-    font-size: 20px;
-}
-
-.btn-sobre-nos{
-    display: block;
-    margin: auto;
-}
-
-#coluna1{
-    width:100%;
-    margin-left: 10px;
-    text-align: justify;
-}
-
-#coluna1 h1{
-    font-size: 50px;
-    text-align: center;
-}
-
-#coluna1 h2{
-    font-size: 25px;
-    text-align: center;
-}
-
-#coluna1 h3{
-    font-size: 15px;
-    text-align: center;
-    max-width: 80%;
-    text-align: justify;
-    margin: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-#coluna1 h4{
-    font-size: 15px;
-    text-align: center;
+    font-size: 18px;
 }
 
 #coluna2 img{
-    margin-left: 80px;
+    width: 500px;
+    margin-bottom: 30px;
+    display: block;
+    margin: auto;
 }
 
 #coluna3{
-    display: block;
-    margin-right: 100px;
-    width:63%;
-    margin-top: 30px;
-    
+    width: 100%;
+}
+
+#coluna3 h2{
+    font-size: 50px;    
+}
+
+#coluna3 h3{
+    font-size: 25px;
+    line-height: 30px; 
+    border: none;  
 }
 
 #sec3{
@@ -227,7 +235,6 @@ nav ul li a{
 
 #rodape-content h4{
     font-size: 45px;
-    /* font-weight: 300; */
 }
 
 }
