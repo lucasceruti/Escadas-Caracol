@@ -19,6 +19,7 @@
 
 #sec1-background{
     background: url(../imagens/background-preto.jpg);
+    height: 600px;
     width: 100%;
     background-repeat: no-repeat;
     background-size:100%;
@@ -36,7 +37,11 @@
 }
 
 #sec1-content{
-    margin: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;              
+    top: 50%;                        
+    transform: translate(0, -50%);
 }
 
 #sec1-content h1{
@@ -45,7 +50,10 @@
     font-weight: 400;
     color: #ffffff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);  
-    text-align: center;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto; 
 }
 
 #sec1-content hr{
@@ -68,7 +76,6 @@ main{
     background-color: azure;
     display: inline-block;
     margin-top: 40px;
-    /* border: 1px solid black; */
 }
 
 #coluna1{
