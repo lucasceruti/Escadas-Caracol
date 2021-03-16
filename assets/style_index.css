@@ -37,6 +37,7 @@
 }
 
 #sec1-content{
+    text-align: center;
     justify-content: center;
     align-items: center;
     position: relative;              
@@ -46,14 +47,13 @@
 
 #sec1-content h1{
     font-family: 'Berkshire Swash', cursive;
-    font-size: 80px;
+    font-size: 5.5em;
     font-weight: 400;
     color: #ffffff;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);  
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto; 
 }
 
 #sec1-content hr{
@@ -66,7 +66,7 @@
     color:#ffffff;
     text-align: center;
     font-weight: 500;
-    font-size: 30px;
+    font-size: 1.5em;
     text-shadow: 2px 2px 10px rgba(0, 0, 0, 1);
     margin-top: 20px;
 }
@@ -82,11 +82,13 @@ main{
     float:left;
     width:28%;
     margin: 30px;
+    text-align: justify;
 }
 
 #coluna2 img{
     float:left;
     margin-left: 70px;
+    height: 450px;
     border: 1px solid black;
 
 }
@@ -97,12 +99,13 @@ main{
     background-repeat: no-repeat;
     float:right;
     width:28%;
+    height: 450px;
     border: 1px solid black;
 }
 
 #coluna1 h1{
     font-family: 'Berkshire Swash', cursive;
-    font-size: 50px;
+    font-size: 3em;
     font-weight: 400;
     color:#0F0F95;
     margin-top: 20px;
@@ -111,7 +114,7 @@ main{
 
 #coluna1 h2{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.3em;
     font-weight: 700;
     color:#000000;
     line-height: 25px;
@@ -119,7 +122,7 @@ main{
 
 #coluna1 h3{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 100;
     color:#000000;
     margin-top: 30px;
@@ -129,7 +132,7 @@ main{
 
 #coluna1 h4{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 700;
     color:#000000;
 }
@@ -137,7 +140,7 @@ main{
 .btn-sobre-nos{
     font-family: 'Josefin Sans', sans-serif;
     padding: 20px 40px 20px 40px;
-    font-size: 13px;
+    font-size: 0.8em;
     color: #ffffff;
     background-color:#000077;
     border-radius: 50px;
@@ -154,7 +157,7 @@ main{
     font-family: 'Berkshire Swash', cursive;
     color: #ffffff;
     text-align: center;
-    font-size: 50px;
+    font-size: 3em;
     font-weight: 400;
     margin-top: 250px;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
@@ -163,11 +166,10 @@ main{
 #coluna3 h3{
     font-family:'Josefin Sans', sans-serif;
     color: #ffffff;
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: 300;
-    text-align: left;
-    margin-top: 40px;
-    line-height: 50px;
+    margin-top: 30px;
+    line-height: 40px;
     text-align: center;
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 1);
 }

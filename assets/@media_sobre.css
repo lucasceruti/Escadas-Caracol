@@ -3,18 +3,126 @@
 /* OTIMIZAÇÃO PARA CELULAR */
 
 @media (max-width: 1400px){
+
+
+}
  
     @media (max-width: 1024px){
-    }
-    
+        #references-1 {
+            width: 55%;
+        }
+      
+        #escada2{
+            display: none;
+        }
+
+        .btn-servicos{
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+        }
+    }  
  
     
     @media (max-width: 900px) {
+        #background h1{
+            font-size: 100px;
+            text-align: center;
+        }
+
+        #references-1 {
+            width: 50%;
+        }
+
+        #escada1{
+            margin-left: 100px;
+            margin-top: 50px;
+        }
+
+        #escada3{
+            margin-left: 100px;
+            margin-top: -30px;
+        }
+
+        #equipe{
+            height: 2200px;
+            text-align: center;
+        }
+
+        #djalma{
+            width: 60%;
+            float: none;
+            margin: auto;
+            margin-top: -150px;
+        }
+
+        #imaculada{
+            width: 60%;
+            float: none;
+            margin: auto;
+            margin-top: -150px;
+        }
+
+        #daniel{
+            width: 60%;
+            float: none;
+            margin: auto;
+            margin-top: -150px;
+        }
+
+        #equipe h3{
+            padding: 200px;
+        }
+        
+        #equipe h4{
+            padding: 150px;
+            margin-top: -330px;
+        }
+        
+
+        #soldadores{
+            width: 60%;
+            float: none;
+            margin: auto;
+            margin-top: -210px;
+        }
+
+        #soldadores h3{
+            /* position: static; */
+            padding: 0;
+            font-size: 23px;
+            border: 1px solid black ;
+        }
+
+        #espaco{
+            width: 60%;
+            float: none;
+            margin: auto;
+            margin-top: -230px;
+            margin-bottom: 50px;
+        }
+
+        #espaco h3{
+            /* position: relative; */
+            padding: 0;
+            border: 1px solid black ;
+        }
     }
 
- 
     
     
     @media (max-width: 768px) {
+        #background h1{
+            font-size: 80px;
+        }
+
+        #soldadores{
+            width: 100%;
+        }
+
+        #espaco{
+            width: 100%;
+        }
     }
-}
+
+        

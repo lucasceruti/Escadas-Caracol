@@ -11,89 +11,57 @@
     }
       
     #sec3-content{
-        margin-top: 0;
         margin-left: 30px;
     }
-    
-    #sec3-background img{
-        width: 40%;
-        margin-bottom: 30px;
-        margin-left: 50px;
+
+    #sec3-background{
+        margin-left: -90px;
     }
-    
+        
     #sec3-content h1{
-        font-size: 40px;
+        font-size: 2.5em;
     }
     
     #sec3-content h2{
-        font-size: 50px;
+        font-size: 3.5em;
     }
     
     #sec3-content h3{
-        font-size: 17px;
+        font-size: 1em;
         max-width: 90%;
         margin: auto;
         margin-top: 0;
     }
     .btn-orcamento{
-        margin-top: 60px;
+        margin-top: 40px;
     }
     }
     
     
     @media (max-width: 1024px){
+    #sec3-content{
+        margin-top: 5px;
+    }
     
     #sec3-content h1{
-        font-size: 35px;
+        font-size: 2em;
     }
     
     #sec3-content h2{
-        font-size: 35px;
+        font-size: 2.5em;
     }
     
     #sec3-content h3{
-        font-size: 15px;
-        max-width: 80%;
-        margin: auto;
-        margin-bottom: 30px;
+        font-size: 0.9em;
+        margin-bottom: 20px;
     }
     
     #sec3-background img{
         width: 40%;
     }
-    
-    .btn-orcamento{
-        margin-top: 0;
-        margin-bottom: 30x;
-    }
 
     }
-    
-    @media (max-width: 900px) {
-
-    #sec3-background img{
-        width: 40%;
-    }
-    
-    #sec3-content h1{
-        font-size: 35px;
-    }
-    
-    #sec3-content h2{
-        font-size: 35px;
-    }
-    
-    #sec3-content h3{
-        max-width: 100%;
-        font-size: 15px;
-    }
-    
-    .btn-orcamento{
-        margin-top: 0;
-        margin-bottom: 30px;
-    }
-    }
-    
+       
     
     @media (max-width: 768px) {
     .checkbtn{
@@ -142,9 +110,8 @@
     }
     
     #sec3-background img{
-        width: 80%;
-        margin-left: 50px;
         order: 2;
+        width: 100%;
     }
     
     #sec3-content{
@@ -154,36 +121,32 @@
     }
     
     #sec3-content h1{
-        font-size: 40x;
+        font-size: 2.5em;
+    }
+
+    #sec3-content h2{
+        font-size: 2.5em;
     }
     
     #sec3-content h3{
-        font-size: 17px;
-        max-width: 70%;
-        margin: auto;
-        margin-bottom: 30px;
+        font-size: 0.9em;
     }
     
     .btn-orcamento{
         margin-bottom: 20px;
     }
-    
-    #rodape-content{
-        margin-top: 50%;
-        margin-bottom: -50%;
-    }
-    
+       
     #rodape-content h2{
-        font-size: 35px;
+        font-size: 2.5em;
     }
     
     #rodape-content h3{
-        font-size: 18px;
+        font-size: 1.3em;
         font-weight: 300;
     }
     
     #rodape-content h4{
-        font-size: 45px;
+        font-size: 3em;
     }
     
     }

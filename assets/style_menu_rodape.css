@@ -5,13 +5,10 @@
 
 nav{
     font-family: 'Josefin Sans', sans-serif;
-	height: 80px;
-	width: 100%;
     z-index: 9; 
 }
 
 .checkbtn{
-    font-size: 30px;
     float: right;
     line-height: 80px;
     margin-right: 40px;
@@ -49,7 +46,7 @@ nav ul li {
 
 nav ul li a{
     padding: 20px;
-    font-size: 18px;
+    font-size: 1.1em;
 }
 
 nav a{
@@ -64,7 +61,7 @@ nav a:hover, a:active{
 .btn-contato{
     font-family: 'Josefin Sans', sans-serif;
     padding: 15px 35px 15px 35px;
-    font-size: 16px;
+    font-size: 1em;
     color: #ffffff;
     background-color:#0F0F95;
     border-radius: 50px;
@@ -87,18 +84,19 @@ nav a:hover, a:active{
     float: left;
     width: 500px;
     margin-left: 100px;
+    margin-bottom: 60px;
 }
 
 #sec3-content{
     float: right;
     max-width: 40%;
     margin-right: 60px;
-    margin-top: 100px;
+    margin-top: 50px;
 }
 
 #sec3-content h2{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 40px;
+    font-size: 3em;
     font-weight: 400;
     text-align: center;
     color:#CF2E2E;
@@ -107,7 +105,7 @@ nav a:hover, a:active{
 
 #sec3-content h1{
     font-family: 'Berkshire Swash', cursive;
-    font-size: 40px;
+    font-size: 2.5em;
     font-weight: 400;
     text-align: center;
     color:black;
@@ -124,18 +122,18 @@ nav a:hover, a:active{
 
 #sec3-content h3{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.1em;
     font-weight: 100;
     color:#000000;
     line-height: 20px;
     text-align: justify;
-    margin-bottom: 90px;
+    margin-bottom: 50px;
 }
 
 .btn-orcamento{
     font-family: 'Josefin Sans', sans-serif;
     padding: 20px 40px 20px 40px;
-    font-size: 16px;
+    font-size: 1em;
     color: #ffffff;
     background-color:#000077;
     border-radius: 50px;
@@ -164,26 +162,27 @@ nav a:hover, a:active{
 #rodape-content{
     text-align: center;
     color: white;
-    margin-top: 200px; 
+    top: 50%;                        
+    transform: translate(0, 100%);
 }
 
 #rodape-content h2{
     font-family: 'Berkshire Swash', cursive;
-    font-size: 50px;
+    font-size: 3.5em;
     font-weight: 400;
     margin-top: 20px;
 }
 
 #rodape-content h3{
     font-family:  'Josefin Sans', sans-serif;
-    font-size: 20px;
+    font-size: 1.4em;
     font-weight: 700;
     margin-top: 20px;
 }
 
 #rodape-content h4{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 60px;
+    font-size: 5em;
     font-weight: 700;
     margin-top: 20px;
 }
@@ -197,7 +196,7 @@ nav a:hover, a:active{
 
 #rodape-contato h5{
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 16px;
+    font-size: 1em;
     font-weight: 400;
     text-align: center;
     color: white;
