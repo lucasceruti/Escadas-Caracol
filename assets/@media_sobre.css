@@ -4,10 +4,9 @@
 
 @media (max-width: 1400px){
 
-
 }
  
-    @media (max-width: 1024px){
+    @media (max-width: 1300px){
         #references-1 {
             width: 55%;
         }
@@ -21,13 +20,75 @@
             margin: auto;
             margin-top: 20px;
         }
+
+        #equipe{
+            height: 1900px;
+        }
+
+        #djalma{
+            float: none;
+            display: inline-block;
+            margin-left: 15%;
+        }
+
+        #imaculada{
+            float: none;
+            display: inline-block;
+            margin-left: 15%;
+        }
+
+        #daniel{
+            float: none;
+            display: inline-block;
+            margin-top: 20px;
+            margin-left: 35%;
+        }
+
+        #daniel h3{
+            position: absolute;
+        }
+    
+        #daniel h4{
+            position: absolute;
+            margin-top: 300px;
+        }
+
+        #soldadores{
+            width: 60%;
+            float: none;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        #soldadores h3{
+            position: absolute;
+            max-width: 50%;
+            margin-top: 300px;
+            font-size: 1.3em;
+        }
+
+        #espaco{
+            width: 60%;
+            float: none;
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        #espaco h3{
+            position: absolute;
+            max-width: 50%;
+            margin-top: 300px;
+            font-size: 1.3em;
+        }
     }  
  
     
-    @media (max-width: 900px) {
+    @media (max-width: 1024px) {
         #background h1{
-            font-size: 100px;
+            font-size: 6em;
             text-align: center;
+            display: block;
+            margin: auto;
         }
 
         #references-1 {
@@ -35,77 +96,82 @@
         }
 
         #escada1{
-            margin-left: 100px;
             margin-top: 50px;
+            width: 30%;
         }
 
         #escada3{
-            margin-left: 100px;
-            margin-top: -30px;
+            background-size: contain;
+            background-repeat: no-repeat;
+            width: 30%;
+        }
+
+        #equipe h2{
+            margin-top: 50px;
+            padding: 0;
+            margin-bottom: 0;
+            text-align: center;
         }
 
         #equipe{
             height: 2200px;
-            text-align: center;
         }
 
         #djalma{
-            width: 60%;
+            width: 40%;
             float: none;
+            display: block;
             margin: auto;
-            margin-top: -150px;
+            margin-top: 40px;
         }
 
         #imaculada{
-            width: 60%;
+            width: 40%;
             float: none;
+            display: block;
             margin: auto;
-            margin-top: -150px;
+            margin-top: 40px;
         }
 
         #daniel{
-            width: 60%;
+            width: 40%;
             float: none;
+            display: block;
             margin: auto;
-            margin-top: -150px;
+            margin-top: 40px
         }
 
         #equipe h3{
-            padding: 200px;
+            position: absolute;
         }
         
         #equipe h4{
-            padding: 150px;
-            margin-top: -330px;
+            position: absolute;
+            margin-top: 300px;
         }
         
-
         #soldadores{
             width: 60%;
             float: none;
             margin: auto;
-            margin-top: -210px;
+            margin-top: 40px;
         }
 
         #soldadores h3{
-            /* position: static; */
-            padding: 0;
-            font-size: 23px;
-            border: 1px solid black ;
+            max-width: 50%;
         }
 
         #espaco{
             width: 60%;
             float: none;
             margin: auto;
-            margin-top: -230px;
+            margin-top: 40px;
             margin-bottom: 50px;
         }
 
         #espaco h3{
-            /* position: relative; */
-            padding: 0;
-            border: 1px solid black ;
+            text-align: center;
+            margin-top: 300px;
         }
     }
 
@@ -113,15 +179,97 @@
     
     @media (max-width: 768px) {
         #background h1{
-            font-size: 80px;
+            font-size: 5em;
+        }
+
+        #references {
+            margin-top: 40px;
+        }
+
+        #references-1 {
+            width: 100%;
+            margin: 0;
+        }
+
+        #references-1 h1 {
+            font-size: 2em;
+            max-width: 80%;
+        }
+
+        #references-1 h2 {
+            font-size: 1em;
+            max-width: 80%;
+        }
+
+        #references-1 hr{
+            max-width: 60%;
+        }
+
+        #escada1{
+            width: 25%;
+            margin: 0;
+            margin-top: 50px;
+        }
+
+        #escada2{
+            display: block;
+            width: 30%;
+            height: 50%;
+            margin-top: 50px;
+        }
+
+        #escada3{
+            width: 40%;
+            height: 55%;
+            margin: 0;
+            margin-top: 40px;
+        }
+
+        #equipe h2{
+            font-size: 3em;
+        }
+
+        #djalma{
+            width: 300px;
+            height: 300px;
+        }
+
+        #imaculada{
+            width: 300px;
+            height: 300px;
+        }
+
+        #daniel{
+            width: 300px;
+            height: 300px;
+        }
+
+        #equipe h3{
+            margin-top: 200px;
+        }
+        
+        #equipe h4{
+            margin-top: 250px;
         }
 
         #soldadores{
-            width: 100%;
+            width: 70%;
+        }
+
+        #soldadores h3{
+            font-size: 1.3em;
+            text-align: center;
+            margin-top: 270px;
+            margin-left: 40px;
         }
 
         #espaco{
-            width: 100%;
+            width: 70%;
+        }
+
+        #espaco h3{
+            font-size: 1.2em;
+            margin-top: 350px;
         }
     }
 
