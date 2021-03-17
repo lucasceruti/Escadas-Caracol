@@ -225,6 +225,10 @@
             margin-top: 40px;
         }
 
+        #equipe{
+            height: 2050px;
+        }
+
         #equipe h2{
             font-size: 3em;
         }
@@ -257,10 +261,9 @@
         }
 
         #soldadores h3{
-            font-size: 1.3em;
+            font-size: 1.1em;
             text-align: center;
             margin-top: 270px;
-            margin-left: 40px;
         }
 
         #espaco{
@@ -269,7 +272,7 @@
 
         #espaco h3{
             font-size: 1.2em;
-            margin-top: 350px;
+            margin-top: 300px;
         }
     }
 
